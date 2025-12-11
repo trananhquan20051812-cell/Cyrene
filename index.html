@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cyrene</title>
+    <title>Cyrene</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
@@ -136,8 +136,8 @@
             const bgMoveY = mouseY * -20;
             const charMoveX = mouseX * 50; 
             const charMoveY = mouseY * 50;
-            const upMoveX = mouseX * -100; 
-            const upMoveY = mouseY * -100;
+            const upMoveX = mouseX * -50; 
+            const upMoveY = mouseY * -50;
 
             if(bgLayer) bgLayer.style.transform = `translateZ(-100px) scale(1) translate(${bgMoveX}px, ${bgMoveY}px)`;
             if(charLayer) charLayer.style.transform = `translateZ(30px) scale(0.9) translate(${charMoveX}px, ${charMoveY}px)`;
@@ -229,3 +229,4 @@ setInterval(createParticle, 200);
 
 </body>
 </html>
+
